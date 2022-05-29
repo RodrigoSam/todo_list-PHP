@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(236, 238, 237);
+}
+
+.page-header {
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 209, 132);
+}
+
+
+.page-header-container {
+    width: 980px;
+    color: #FFF;
+    padding: 1rem;
+}
+
+@media(max-width: 1000px){
+    .page-header-container {
+        width: 100%;
+    }
+}
+
+.page-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.page-content-container {
+    width: 980px;
+    background-color: #FFF;
+    border-radius: 28px;
+    min-height: calc(100vh - 180px);
+    margin-top: -80px;
+    box-shadow: -3px -3px 5px rgb(121, 121, 121);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width: 1000px){
+    .page-content-container{
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.input-text {
+    flex: 1;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    border: 0;
+    padding: .9rem;
+}
+
+.input-text:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.btn-submit {
+    padding: 0 2rem 0 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(43, 209, 132);
+    color: #FFF;
+}
+
+.btn-submit:hover {
+    filter: brightness(0.8);
+    transition: filter 0.3s;
+}
+
+table {
+    margin-top: 2rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr td {
+    border: none;
+    padding: .8rem;
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.material-icons-outlined{
+    font-family: 'Material Icons';
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.link-trash{
+    color: rgb(255, 125, 125);
+}
+
+.link-not-done{
+    color: rgb(42, 44, 43);
+}
+
+.link-done{
+    color: rgb(211, 211, 211);
+}
+
+.td-done {
+    text-decoration: line-through;
+    color: rgb(211, 211, 211);
+}
+
+.td-not-done {
+    color: rgb(42, 44, 43);
+    font-weight: 500;
+}
+
