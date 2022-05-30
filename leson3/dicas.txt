@@ -1,0 +1,2 @@
+sempre que criamos uma classe precisamos rodar o comando 'composer dumpautoload' para atualizar as listas de classe
+do projeto

@@ -18,7 +18,7 @@ $tasks = get_all();
 <body>
     <header class="page-header">
         <div class="page-header-container">
-            <h1>to.do</h1>
+            <h1>to.do list</h1>
         </div>
     </header>
     <div class="page-content">

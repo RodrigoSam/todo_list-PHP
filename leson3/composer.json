@@ -1,0 +1,9 @@
+{
+    "name": "rodrigo/leson3",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    }
+}
