@@ -1,0 +1,22 @@
+sempre que criamos uma classe precisamos rodar o comando 'composer dumpautoload' para atualizar as listas de classe
+do projeto
+
+para subir uma sessão rodar o seguinte comando no terminal 'php -S localhost:8080'
+-S => siginifica server
+
+conceito SOLID de CLASSES
+ S => responsabilidade unica (single responsabilities)
+ O => Open to extend and close to modification
+ L => liskov Substitution
+ I => interface segregation
+ D => inversão de dependência
+
+convenções da Controller
+
+     // index - trazer a lista - GET
+     // show - exibir um item - GET
+     // create - exibir um formulario para criar um novo item - GET
+     // store - gravar um novo item - POST
+     // edit - exibir um form para editar um item - GET
+     // update - atualizar um item - PUT
+     // destroy - excluir um item - DELETE

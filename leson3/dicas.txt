@@ -1,5 +1,0 @@
-sempre que criamos uma classe precisamos rodar o comando 'composer dumpautoload' para atualizar as listas de classe
-do projeto
-
-para subir uma sessão rodar o seguinte comando no terminal 'php -S localhost:8080'
--S => siginifica server
