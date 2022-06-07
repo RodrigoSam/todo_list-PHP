@@ -1,4 +1,7 @@
 <?php
+namespace App\Database;
+
+use PDO;
 
 class Migrator
 {

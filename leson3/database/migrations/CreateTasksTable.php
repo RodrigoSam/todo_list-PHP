@@ -1,5 +1,9 @@
 <?php
 
+namespace App\database\migrations;
+
+use App\Database\Schema;
+
 class CreateTasksTable implements Schema
 {
     public static function up(): string
@@ -12,5 +16,4 @@ class CreateTasksTable implements Schema
                         completed integer default 0
                     )';
     }
-
 }
